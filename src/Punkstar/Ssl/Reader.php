@@ -52,7 +52,8 @@ class Reader
                 'capture_peer_cert' => TRUE,
                 'capture_peer_cert_chain' => TRUE,
                 'verify_peer'       => FALSE,
-                'verify_peer_name'  => FALSE
+                'verify_peer_name'  => FALSE,
+                'security_level'    => 0
             )
         ));
 
